@@ -20,6 +20,12 @@ namespace ColorSpheres
             radius = 0;
         }
 
+        // Throws the Sphere by incrementing timesThrown
+        public void Throw()
+        {
+            timesThrown++;
+        }
+
         public Sphere(Color color, uint radius)
         {
             this.color = color;
