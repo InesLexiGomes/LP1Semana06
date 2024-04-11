@@ -8,7 +8,7 @@ namespace ColorSpheres
     public class Sphere
     {
         // Color of the sphere
-        Color color;
+        readonly Color color;
         // Radius of the sphere (If 0 it's popped!)
         uint radius;
         // Counts how many times this sphere was thrown
