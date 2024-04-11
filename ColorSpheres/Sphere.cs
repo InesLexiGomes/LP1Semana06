@@ -14,6 +14,12 @@ namespace ColorSpheres
         // Counts how many times this sphere was thrown
         uint timesThrown;
 
+        // Pops Sphere by setting its radius to 0
+        public void Pop()
+        {
+            radius = 0;
+        }
+
         public Sphere(Color color, uint radius)
         {
             this.color = color;
