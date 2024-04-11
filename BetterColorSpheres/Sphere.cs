@@ -21,7 +21,7 @@ namespace BetterColorSpheres
         }
 
         // Throws the Sphere by incrementing timesThrown
-        public void Throw() {if (radius>0) this.TimesThrown++;}
+        public void Throw() {if (this.Radius>0) this.TimesThrown++;}
 
         // Method to return the status of the ball
         public void printStatus()

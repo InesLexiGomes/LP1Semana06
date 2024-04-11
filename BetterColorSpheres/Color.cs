@@ -8,17 +8,17 @@ namespace BetterColorSpheres
     public class Color
     {
         // Defines the colors as properties
-        public byte Red { get;};
-        public byte Green { get;};
-        public byte Blue { get;};
-        public byte Alpha { get;};
+        public byte Red { get;}
+        public byte Green { get;}
+        public byte Blue { get;}
+        public byte Alpha { get;}
 
         // Getter for the average between all colors
         public byte Gray
         {
             get
             {
-                byte grayscale = (byte)((red + green + blue) / 3);
+                byte grayscale = (byte)((Red + Green + Blue) / 3);
                 return grayscale;
             }
         }
