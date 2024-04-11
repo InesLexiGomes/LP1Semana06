@@ -23,7 +23,7 @@ namespace ColorSpheres
         // Throws the Sphere by incrementing timesThrown
         public void Throw()
         {
-            timesThrown++;
+            if (radius>0) timesThrown++;
         }
 
         public Sphere(Color color, uint radius)
