@@ -21,17 +21,12 @@ namespace ColorSpheres
         }
 
         // Throws the Sphere by incrementing timesThrown
-        public void Throw()
-        {
-            if (radius>0) timesThrown++;
-        }
+        public void Throw() {if (radius>0) timesThrown++;}
 
-        // Returns the ammount of times the ball has been thrown
-        public uint GetTimesThrown()
-        {
-            return timesThrown;
-        }
+        // Returns the amount of times the ball has been thrown
+        public uint GetTimesThrown() {return timesThrown;}
 
+        // Constructor of the class
         public Sphere(Color color, uint radius)
         {
             this.color = color;
