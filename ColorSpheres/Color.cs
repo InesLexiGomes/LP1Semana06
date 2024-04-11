@@ -13,6 +13,13 @@ namespace ColorSpheres
         private int blue;
         private int alpha;
 
+        // Getters to return the variables
+        public int getRed() return red;
+        public int getGreen() return green;
+        public int getBlue() return blue;
+        public int getAlpha() return alpha;
+
+
         // Default constructor that takes all colors
         public Color(int red, int green, in int blue,int alpha)
         {
