@@ -18,7 +18,7 @@ namespace ColorSpheres
         {
             this.color = color;
             this.radius = radius;
-            this.timesThrown = 0;
+            timesThrown = 0;
         }
     }
 }
