@@ -8,20 +8,20 @@ namespace ColorSpheres
     public class Color
     {
         // Defines the colors
-        private int red;
-        private int green;
-        private int blue;
-        private int alpha;
+        private byte red;
+        private byte green;
+        private byte blue;
+        private byte alpha;
 
         // Getters to return the variables
-        public int getRed() return red;
-        public int getGreen() return green;
-        public int getBlue() return blue;
-        public int getAlpha() return alpha;
+        public byte getRed() return red;
+        public byte getGreen() return green;
+        public byte getBlue() return blue;
+        public byte getAlpha() return alpha;
 
 
         // Default constructor that takes all colors
-        public Color(int red, int green, in int blue,int alpha)
+        public Color(byte red, byte green, byte blue, byte alpha)
         {
             this.red = red;
             this.green = green;
@@ -29,7 +29,7 @@ namespace ColorSpheres
             this.alpha = alpha;
         }
         // Overloading where alpha is set to 255 when not stated
-        public Color(int red, int green, int blue)
+        public Color(byte red, byte green, byte blue)
         {
             this.red = red;
             this.green = green;
