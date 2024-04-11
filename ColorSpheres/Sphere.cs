@@ -29,7 +29,12 @@ namespace ColorSpheres
         // Method to return the status of the ball
         public void printStatus()
         {
-            Console.WriteLine($"The ball's color is: {color.ToString()}");
+            byte r = color.GetRed();
+            byte g = color.GetGreen();
+            byte b = color.GetBlue();
+            byte a = color.GetAlpha();
+
+            Console.WriteLine($"The ball's color is: ({r},{g},{b},{a})");
             Console.WriteLine($"The ball's radius is: {radius}");
             Console.WriteLine($"The ball has been thrown {timesThrown} times");
         }
