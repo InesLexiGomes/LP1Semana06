@@ -14,10 +14,11 @@ namespace ColorSpheres
         // Counts how many times this sphere was thrown
         uint timesThrown;
 
-        public Sphere(Color color, uint radius,)
+        public Sphere(Color color, uint radius)
         {
             this.color = color;
             this.radius = radius;
+            this.timesThrown = 0;
         }
     }
 }

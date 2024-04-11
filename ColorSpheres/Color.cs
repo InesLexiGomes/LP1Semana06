@@ -22,7 +22,7 @@ namespace ColorSpheres
         // Getter for the average between all colors
         public byte GetGray()
         {
-            byte grayscale = (red + green + blue) / 3;
+            byte grayscale = (byte)((red + green + blue) / 3);
             return grayscale;
         }
 
