@@ -19,6 +19,13 @@ namespace ColorSpheres
         public byte getBlue() return blue;
         public byte getAlpha() return alpha;
 
+        // Getter for the average between all colors
+        public byte GetGray()
+        {
+            byte grayscale = (red + green + blue) / 3;
+            return grayscale;
+        }
+
 
         // Default constructor that takes all colors
         public Color(byte red, byte green, byte blue, byte alpha)
