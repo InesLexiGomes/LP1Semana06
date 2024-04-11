@@ -8,10 +8,10 @@ namespace ColorSpheres
     public class Color
     {
         // Defines the colors
-        private byte red;
-        private byte green;
-        private byte blue;
-        private byte alpha;
+        readonly private byte red;
+        readonly private byte green;
+        readonly private byte blue;
+        readonly private byte alpha;
 
         // Getters to return the variables
         public byte GetRed() {return red;}
