@@ -26,6 +26,12 @@ namespace ColorSpheres
             if (radius>0) timesThrown++;
         }
 
+        // Returns the ammount of times the ball has been thrown
+        public uint GetTimesThrown()
+        {
+            return timesThrown;
+        }
+
         public Sphere(Color color, uint radius)
         {
             this.color = color;
