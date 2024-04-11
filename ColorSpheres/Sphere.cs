@@ -26,6 +26,14 @@ namespace ColorSpheres
         // Returns the amount of times the ball has been thrown
         public uint GetTimesThrown() {return timesThrown;}
 
+        // Method to return the status of the ball
+        public void printStatus()
+        {
+            Console.WriteLine($"The ball's color is: {color.ToString()}");
+            Console.WriteLine($"The ball's radius is: {radius}");
+            Console.WriteLine($"The ball has been thrown {timesThrown} times");
+        }
+
         // Constructor of the class
         public Sphere(Color color, uint radius)
         {
