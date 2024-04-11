@@ -14,10 +14,10 @@ namespace ColorSpheres
         private byte alpha;
 
         // Getters to return the variables
-        public byte getRed() return red;
-        public byte getGreen() return green;
-        public byte getBlue() return blue;
-        public byte getAlpha() return alpha;
+        public byte GetRed() return red;
+        public byte GetGreen() return green;
+        public byte GetBlue() return blue;
+        public byte GetAlpha() return alpha;
 
         // Getter for the average between all colors
         public byte GetGray()
