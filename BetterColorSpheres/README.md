@@ -20,6 +20,14 @@ classDiagram
         + PrintStatus() void
         + Sphere() void
     }
-
+    class Color{
+        + Red: byte
+        + Green: byte
+        + Blue: byte
+        + Alpha: byte
+        + Gray: byte
+        + Color(byte, byte, byte, byte) void
+        + Color(byte, byte, byte) void
+    }
     
 ```
