@@ -42,5 +42,14 @@ namespace PlayerStats
                 return tempRate;
             }
         }
+
+        // Constructor
+        public Player(string name)
+        {
+            Name = name;
+            highScore = 0;
+            playedGames = 0;
+            wonGames = 0;
+        }
     }
 }
