@@ -10,15 +10,15 @@ namespace PlayerStats
         // Variables
         private float highScore;
         private int playedGames;
-        private int wonGames
+        private int wonGames;
 
         // Property that manages the high score
-        public float highScore
+        public float HighScore
         {
             // Returns current high score
             get { return highScore; }
             // Check if value is greater than current value
-            private set
+            set
             {
                 if (value > highScore)
                 {
@@ -38,7 +38,7 @@ namespace PlayerStats
                 float tempRate;
                 // Use if to avoid dividing by zero
                 if (playedGames == 0) tempRate = 0;
-                else tempRate = wonGames/ playedGames;
+                else tempRate = (float) wonGames/ playedGames;
                 return tempRate;
             }
         }
