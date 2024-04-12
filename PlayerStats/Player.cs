@@ -43,6 +43,14 @@ namespace PlayerStats
             }
         }
 
+        public void PlayGame(bool win)
+        {
+            // Increment games played
+            playedGames++;
+            // Increment games won if won
+            if (win) wonGames++;
+        }
+
         // Constructor
         public Player(string name)
         {
