@@ -17,7 +17,7 @@ classDiagram
         + TimesThrown: uint
         + Pop() void
         + Throw() void
-        + printStatus() void
+        + PrintStatus() void
         + Sphere() void
     }
 

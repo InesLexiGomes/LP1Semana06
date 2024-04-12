@@ -44,9 +44,9 @@ namespace BetterColorSpheres
             Console.WriteLine(monkeyBall.TimesThrown);
             
             // Prints the full state of Spheres
-            monkeyBall.printStatus();
-            faultlessDefense.printStatus();
-            YRC.printStatus();
+            monkeyBall.PrintStatus();
+            faultlessDefense.PrintStatus();
+            YRC.PrintStatus();
         }
     }
 }

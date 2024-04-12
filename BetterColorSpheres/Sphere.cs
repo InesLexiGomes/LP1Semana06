@@ -24,7 +24,7 @@ namespace BetterColorSpheres
         public void Throw() {if (this.Radius>0) this.TimesThrown++;}
 
         // Method to return the status of the ball
-        public void printStatus()
+        public void PrintStatus()
         {
             byte r = color.Red;
             byte g = color.Green;
